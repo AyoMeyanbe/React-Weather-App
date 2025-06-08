@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 import './Card.css'
 import Search from '../Search/Search'
 
-const Card = () => {
+const Card = (city) => {
 
   return (
     <div className='card'>
-      <Search city = {city}/>
+      <Search />
     </div>
   )
-  
+
 }
 
 export default Card
